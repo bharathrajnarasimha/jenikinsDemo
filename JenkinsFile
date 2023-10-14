@@ -24,27 +24,10 @@ pipeline {
             }
         }
 
-   stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-        stage('Build') {
-            steps {
-                echo 'Build'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Test'
-            }
-        }
-        stage('Deploy') {
+ stage('Deploy3') {
             steps {
                 echo 'Deploy'
             }
         }
-
-
     }
 }
